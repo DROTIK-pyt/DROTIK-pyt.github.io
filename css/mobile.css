@@ -153,7 +153,7 @@
 		alighn-items: center;
 		height: 100%;
 		font-size: 20px;
-		color: #fff;
+		color: #000;
 	}
 	.conteiner .menu nav > ul li:hover .sub_menu {
 		display: none;

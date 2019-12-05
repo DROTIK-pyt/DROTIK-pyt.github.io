@@ -9,6 +9,9 @@
 	header .head h2 {
 		font-size: 15px;
 	}
+	header .info {
+		flex-wrap: wrap;
+	}
 	header .info .info_serv {
 		margin-bottom: -15px;
 		width: 132px;

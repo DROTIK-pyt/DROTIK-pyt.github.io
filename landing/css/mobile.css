@@ -1,4 +1,11 @@
 @media (max-width: 480px) {
+	body, html {
+		overflow-x: hidden;
+	}
+	body {
+		width: 100%;
+		max-width: 480px;
+	}
 	header .head {
 		padding-top: 70px;
 		padding-bottom: 1px;

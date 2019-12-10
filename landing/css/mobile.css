@@ -296,6 +296,7 @@
 	.images_disc .img .second_image .text {
 		width: 100%;
 		max-width: 396px;
+		border: none;
 	}
 	.images_disc .img .second_image .text p {
 		top: 100px;

@@ -175,6 +175,8 @@
 	}
 	.block_main_2 .main .wrap .landing hr {
 		top: 20px;
+		width: 70%;
+		max-width: 250px;
 	}
 	.block_main_2 .main .wrap .landing button:nth-of-type(1) {
 		top: 29px;
@@ -200,6 +202,8 @@
 	}
 	.block_main_2 .main .wrap .web hr {
 		top: 20px;
+		width: 70%;
+		max-width: 250px;
 	}
 	.block_main_2 .main .wrap .web button:nth-of-type(1) {
 		top: 39px;
@@ -223,6 +227,8 @@
 	}
 	.block_main_2 .main .wrap .market hr {
 		top: 20px;
+		width: 70%;
+		max-width: 250px;
 	}
 	.block_main_2 .main .wrap .market button:nth-of-type(1) {
 		top: 49px;

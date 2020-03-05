@@ -1,0 +1,280 @@
+@media (max-width: 1099px) {
+	.block_main4 {
+		height: 1348px;
+		padding-top: 0;
+	}
+	.block_main4 .content img {
+		width: 23em;
+    	height: 38em;
+	}
+	.block_main3 .discription {
+		left: -1.25%;
+		margin: 0 auto;
+		text-align: center;
+	}
+	.block_main3 .map img {
+		display: none;
+	}
+	.block_main2 {
+		margin-bottom: 89px;
+	}
+}
+@media (max-width: 992px) {
+	.block_main2 .phone {
+		left: 0.7%;
+	}
+	.block_main4 > button {
+		width: 22.12%;
+	}
+}
+@media (max-width: 819px) {
+	.block_main4 .content {
+		-webkit-flex-wrap: wrap;
+		-moz-flex-wrap: wrap;
+		-ms-flex-wrap: wrap;
+		-o-flex-wrap: wrap;
+		flex-wrap: wrap;
+	}
+	.block_main5 {
+		margin-top: 525px;
+	}
+	.plan {
+		display: block;
+		padding-left: 29%;
+	}
+	.plan .chose_plan {
+		display: block;
+	}
+	.block_main2 {
+		margin-top: 0;
+		margin-bottom: 150px;
+		display: block;
+		text-align: center;
+	}
+	.block_main2 .phone img {
+		display: none;
+	}
+}
+@media (max-width: 703px) {
+	header button {
+		margin-left: 36%;
+	}
+	.block_main1 {
+		display: block;
+		margin-top: 53px;
+	}
+	.block_main1 .lock {
+		margin-bottom: 39px;
+	}
+	.block_main4 form button {
+		width: 37%;
+	}
+	.plan {
+		padding-left: 24%;
+	}
+	footer .subscribe form button {
+		width: 41.8%;
+	}
+	footer .info {
+		display: block;
+	}
+	footer .info .more {
+		justify-content: space-around;
+	}
+	footer .info .scoial_web {
+		margin: 0 auto;
+		width: 50%;
+		text-align: center;
+		margin-bottom: 30px;
+	}
+	footer .info .scoial_web button {
+		margin: 0 auto;
+		margin-bottom: 40px;
+		width: 47.12%;
+	}
+	footer .subscribe {
+		margin-bottom: 82px;
+	}
+	footer .footer {
+		margin: 0px 46px;
+		margin-top: 16px;
+		margin-bottom: 30px;
+	}
+	.block_main2 .protected .for_but {
+		justify-content: center;
+	}
+	.block_main4 > button {
+		width: 26.12%;
+	}
+	.block_main5 .slider .wrap-q q {
+		font-size: 18px;
+	}
+	.plan .chose_plan .second-plan {
+		left: 0;
+	}
+	header .discription h3 p {
+	font-size: 0.8em;
+	}
+	header .title h1 {
+		font-size: 1.5em;
+	}
+	header input[type="checkbox"]:checked + .nav {
+		display: flex;
+		flex-direction: column;
+	}
+	header input[type="checkbox"] + .nav {
+		display: none;
+	}
+	header nav img {
+		margin: 20px 0;
+	}
+	header label {
+		margin-left: 50vw;
+		color: #8c8f94;
+	}
+	header nav .second_block .apple {
+		height: 40px;
+	}
+}
+@media (max-width: 664px) {
+	.block_main4 form input::placeholder {
+		opacity: 0;
+	}
+}
+@media (max-width: 659px) {
+	.block_main5 {
+		margin-top: 1062px;
+	}
+	.plan {
+		padding-top: 20px;
+		box-sizing: border-box;
+	}
+	.block_main2 .protected {
+		margin-right: 0;
+	}
+}
+@media (max-width: 582px) {
+	footer .info .scoial_web button .wrap span:last-child {
+		font-size: 16px;;
+}
+@media (max-width: 533px) {
+	header button {
+		margin-left: 29vw;
+	}
+	.block_main4 > button .div {
+		display: none;
+	}
+	.block_main4 > button {
+		width: 12.12%;
+	}
+	footer .info .scoial_web button .wrap .div {
+		display: none;
+	}
+	footer .info .scoial_web button {
+		width: 25.12%;
+	}
+	footer .info .more {
+		justify-content: center;
+	}
+	footer .subscribe h2 {
+		font-size: 35px;
+	}
+	header .discription h3 p {
+		display: none;
+	}
+	header label {
+		margin-left: 45vw;
+	}
+}
+@media (max-width: 480px) {
+	.block_main5 .slider .wrap-q q {
+		font-size: 15px;
+	}
+	.block_main3 .discription p {
+		font-size: 17px;
+	}
+	.block_main2 .protected .for_but {
+		margin-top: 42px;
+	}
+	.block_main2 .protected p {
+		font-size: 17px;
+	}
+	.block_main1 p {
+		font-size: 18px;
+	}
+	.block_main5 .slider .picture img:last-child {
+		display: none;
+	}
+	.block_main5 .slider .picture img:first-child {
+		display: none;
+	}
+	.plan {
+		padding-left: 12%;
+	}
+	footer .info .more {
+		display: block;
+		text-align: center;
+	}
+	header {
+		height: 65vh;
+	}
+}
+@media (max-width: 376px) {
+	.block_main5 {
+		margin-top: 1096px;
+	}
+	.block_main5 .slider h1 {
+		font-size: 25px;
+		margin-top: 60px;
+	}
+	footer .subscribe form input::placeholder {
+		opacity: 0;
+	}
+}
+@media (max-width: 350px) {
+	.block_main2 .protected p {
+		font-size: 14px;
+	}
+	.block_main3 .discription p {
+		font-size: 14px;
+	}
+	.block_main5 .slider .wrap-q q {
+		font-size: 13px;
+	}
+	.plan .chose .but p:nth-of-type(1) {
+		font-size: 17px;
+	}
+	footer .subscribe form button {
+		width: 59.8%;
+	}
+	footer .subscribe form input {
+		width: 115%;
+	}
+	footer .subscribe form button {
+		right: -13px;
+	}
+	.plan .chose_plan .second-plan .advantages ul li {
+		font-size: 0.9em;
+	}
+	.block_main4 form button {
+		width: 65%;
+	}
+	.block_main4 form input {
+		width: 129%;
+	}
+	.block_main4 form button {
+		right: -26px;
+	}
+	header button {
+		margin-left: 17vw;
+	}
+	.block_main2 .protected .for_but button {
+		width: 129px;
+	}
+	.block_main2 .protected .for_but button.attempt {
+		width: 166px;
+	}
+	footer .footer > p {
+		font-size: 10px;
+	}
+}

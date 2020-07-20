@@ -33,6 +33,7 @@ header {
 	background-blend-mode: soft-light;
 	background-repeat: no-repeat;
 	background-position: center;
+	background-size: cover;
 	position: relative;
 }
 header .menu {

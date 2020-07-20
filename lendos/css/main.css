@@ -463,3 +463,9 @@ footer .other .price p {
 	font-weight: 300;
 	font-size: 36px;
 }
+footer .other img {
+	transition-duration: 0.7s;
+}
+footer .other img:hover {
+	transform: scale(1.2);
+}

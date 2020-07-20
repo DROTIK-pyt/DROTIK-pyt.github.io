@@ -1,0 +1,465 @@
+@font-face {
+	font-family: 'Proxima Nova';
+	src: url('../fonts/Proxima Nova.ttf'); format('ttf');
+}
+@font-face {
+	font-family: 'Rubik Mono One';
+	src: url('../fonts/Rubik Mono One.ttf'); format('ttf');
+}
+body {
+	margin: 0;
+	padding: 0;
+	font-size: 24px;
+	font-family: sans-serif;
+	width: 100%
+	max-width: 1529px;
+	margin: 0 auto;
+}
+
+.conteinder {
+	margin: 0 20px;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+	margin: 0;
+	padding: 0;
+}
+
+/*header*/
+
+header {
+	background-image: url('../img/logo-img.png');
+	background-color: rgba(0, 0, 0, 0.47);
+	background-blend-mode: soft-light;
+	background-repeat: no-repeat;
+	background-position: center;
+	position: relative;
+}
+header .menu {
+	width: 100px;
+	height: 60px;
+	margin-left: auto;
+	position: relative;
+}
+header .menu .line {
+	display: block;
+	background-color: #fff;
+	height: 6px;
+	width: 60px;
+	margin: 0 auto;
+	position: absolute;
+	top: 10px;
+	left: 40px;
+}
+header .menu .line:nth-of-type(2) {
+	top: 25px;
+}
+header .menu .line:nth-of-type(3) {
+	top: 40px;
+}
+header .logo h1 {
+	color: #fff;
+	text-align: center;
+	font-family: 'Proxima Nova';
+	font-size: 150px;
+}
+header .logo h1:first-child {
+	padding-top: 56px;
+}
+header .logo h1:nth-of-type(3) {
+	margin-bottom: 80px;
+}
+header button {
+	display: block;
+	position: relative;
+	bottom: 40px;
+	margin-left: auto;
+	width: 300px;
+	height: 50px;
+	background: #D30000;
+	box-shadow: 0px 8px 8px rgba(230, 11, 38, 0.49);
+	border-radius: 24px;
+	color: #fff;
+	font-size: 28px;
+	overflow: hidden;
+	font-family: 'Rubik Mono One';
+}
+header button::after {
+	content: '';
+	position: absolute;
+	top: -50%;
+	right: -50%;
+	bottom: -50%;
+	left: -50%;
+	background: linear-gradient(to bottom, rgba(229, 172, 142, 0), rgba(255,255,255,0.5) 50%, rgba(229, 172, 142, 0));
+	transform: rotateZ(60deg) translate(-5em, 7.5em);
+}
+header button:hover::after, header button:focus::after {
+	animation: sheen 1s forwards;
+}
+@keyframes sheen {
+  100% {
+    transform: rotateZ(60deg) translate(1em, -10em);
+  }
+}
+.terms {
+	position: relative;
+	background-color: #000;
+	color: #fff;
+}
+.terms h2 {
+	padding-top: 30px;
+	font-family: Proxima Nova;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 96px;
+	text-align: center;
+}
+.terms .text {
+	width: 70%;
+	max-width: 1278px;
+	margin: 0 auto;
+	padding-top: 46px;
+}
+.terms .text p {
+	font-size: 40px;
+	color: rgba(250, 250, 250, 0.73);
+	text-align: center;
+	padding-bottom: 190px;
+}
+.work_with_factory h2 {
+	font-family: Proxima Nova;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 96px;
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 180px;
+}
+.work_with_factory .slider1 {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	padding-bottom: 171px;
+}
+.work_with_factory .slide {
+	width: 328px;
+	height: 557px;
+	background: #C4C4C4;
+	border-radius: 20px;
+}
+.work_with_factory .slide p {
+	font-family: Rubik Mono One;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 43px;
+	text-align: center;
+	position: relative;
+	top: 50%;
+}
+.quality {
+	background: #000000;
+	color: #fff;
+	height: 870px;
+}
+.quality h2 {
+	padding-top: 47px;
+	padding-bottom: 120px;
+	text-align: center;
+	font-family: Proxima Nova;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 119px;
+}
+.quality .slider2 {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	padding-bottom: 117px;
+}
+.quality .slider2 .slide {
+	width: 334px;
+	height: 334px;
+	background: #C4C4C4;
+	border-radius: 20px;
+}
+.quality .slider2 .slide p {
+	font-family: Rubik Mono One;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 40px;
+	text-align: center;
+	position: relative;
+	top: 42%;
+	color: #000000;
+}
+.quality button {
+	display: block;
+	position: relative;
+	bottom: 40px;
+	margin: 0 auto;
+	width: 300px;
+	height: 50px;
+	background: #D30000;
+	box-shadow: 0px 8px 8px rgba(230, 11, 38, 0.49);
+	border-radius: 24px;
+	color: #fff;
+	font-size: 28px;
+	overflow: hidden;
+	font-family: 'Rubik Mono One';
+}
+.quality button::after {
+	content: '';
+	position: absolute;
+	top: -50%;
+	right: -50%;
+	bottom: -50%;
+	left: -50%;
+	background: linear-gradient(to bottom, rgba(229, 172, 142, 0), rgba(255,255,255,0.5) 50%, rgba(229, 172, 142, 0));
+	transform: rotateZ(60deg) translate(-5em, 7.5em);
+}
+.quality button:hover::after, .quality button:focus::after {
+	animation: sheen 1s forwards;
+}
+.comparison .container {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin: 0 20px;
+	height: 870px;
+}
+.comparison .competitors {
+	margin-top: 68px;
+}
+.comparison ul {
+	list-style-type: none;
+}
+.comparison .competitors h2 {
+	font-family: Proxima Nova;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 45px;
+	color: #E20000;
+}
+.comparison .competitors ul li {
+	text-align: right;
+	margin-right: 60px;
+}
+.comparison ul li {
+	height: 65px;
+	font-family: Rubik Mono One;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 22px;
+}
+.comparison .we {
+	margin-top: 68px;
+	border-left: 8px solid #000000;
+	padding-left: 20px;
+	margin-right: 8.5%;
+}
+.comparison .we h2 {
+	font-family: Proxima Nova;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 45px;
+	color: #369C12;
+	text-align: center;
+}
+.comparison button {
+	display: block;
+	position: relative;
+	bottom: 80px;
+	margin: 0 auto;
+	margin-top: 110px;
+	width: 500px;
+	height: 50px;
+	background: #D30000;
+	box-shadow: 0px 8px 8px rgba(230, 11, 38, 0.49);
+	border-radius: 24px;
+	color: #fff;
+	font-size: 21px;
+	overflow: hidden;
+	font-family: 'Rubik Mono One';
+}
+.comparison button::after {
+	content: '';
+	position: absolute;
+	top: -50%;
+	right: -5%;
+	bottom: -50%;
+	left: -50%;
+	background: linear-gradient(to bottom, rgba(229, 172, 142, 0), rgba(255,255,255,0.5) 50%, rgba(229, 172, 142, 0));
+	transform: rotateZ(60deg) translate(-5em, 7.5em);
+}
+@keyframes sheen1 {
+  100% {
+    transform: rotateZ(60deg) translate(1em, -25em);
+  }
+}
+.comparison button:hover::after, .comparison button:focus::after {
+	animation: sheen1 1s forwards;
+}
+.storage {
+	background: #000000;
+	color: #fff;
+	height: 870px;
+}
+.storage h2 {
+	padding-top: 47px;
+	padding-bottom: 120px;
+	text-align: center;
+	font-family: Proxima Nova;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 119px;
+}
+.storage .slider3 {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	padding-bottom: 117px;
+}
+.storage .slider3 .slide {
+	width: 334px;
+	height: 334px;
+	background: #C4C4C4;
+	border-radius: 20px;
+}
+.storage .slider3 .slide p {
+	font-family: Rubik Mono One;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 40px;
+	text-align: center;
+	position: relative;
+	top: 42%;
+	color: #000000;
+}
+footer h2 {
+	font-family: Proxima Nova;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 96px;
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 110px;
+}
+footer .slider4 {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	padding-bottom: 110px;
+}
+footer .slide {
+	width: 328px;
+	height: 557px;
+	background: #C4C4C4;
+	border-radius: 20px;
+}
+footer .slide p {
+	font-family: Rubik Mono One;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 43px;
+	text-align: center;
+	position: relative;
+	top: 50%;
+}
+footer button {
+	display: block;
+	position: relative;
+	bottom: 40px;
+	margin: 0 auto;
+	margin-top: 0px;
+	width: 300px;
+	height: 50px;
+	background: #D30000;
+	box-shadow: 0px 8px 8px rgba(230, 11, 38, 0.49);
+	border-radius: 24px;
+	color: #fff;
+	font-size: 21px;
+	overflow: hidden;
+	font-family: 'Rubik Mono One';
+}
+footer button::after {
+	content: '';
+	position: absolute;
+	top: -50%;
+	right: -40%;
+	bottom: -50%;
+	left: -50%;
+	background: linear-gradient(to bottom, rgba(229, 172, 142, 0), rgba(255,255,255,0.5) 50%, rgba(229, 172, 142, 0));
+	transform: rotateZ(60deg) translate(-5em, 7.5em);
+}
+footer button:hover::after,footer button:focus::after {
+	animation: sheen 1s forwards;
+}
+footer .other {
+	background: #000000;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	color: #fff;
+	padding: 25px 0;
+	text-align: center;
+}
+footer .other .contacts {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	-webkit-flex-direction: column;
+	-moz-flex-direction: column;
+	-ms-flex-direction: column;
+	-o-flex-direction: column;
+	flex-direction: column;
+}
+footer .other .contacts h3 {
+	margin-bottom: 25px;
+	font-family: Proxima Nova;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 36px;
+}
+footer .other .payment h3 {
+	margin-bottom: 18px;
+	font-family: Proxima Nova;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 36px;
+}
+footer .other .price p {
+	margin: 26px 0;
+	font-family: Proxima Nova;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 36px;
+}

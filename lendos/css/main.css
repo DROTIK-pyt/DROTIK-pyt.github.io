@@ -252,6 +252,7 @@ header button:hover::after, header button:focus::after {
 	font-weight: 300;
 	font-size: 45px;
 	color: #E20000;
+	text-align: center;
 }
 .comparison .competitors ul li {
 	text-align: right;

@@ -5,6 +5,8 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<meta name="discription" content="">
 		<meta name="keywords" content="">
+		<link rel="stylesheet" href="css/owl.carousel.min.css">
+		<link rel="stylesheet" href="css/owl.theme.default.min.css">
 		<link rel="stylesheet" href="css/main.css">
 		<link rel="stylesheet" href="css/mobile.css">
 		<title>STW</title>
@@ -27,7 +29,8 @@
 				</button>
 			</div>
 		</header>
-		<div class="terms">
+		<div class="terms" id="terms">
+			<!-- <a id="terms" href="" style="display: none;"></a> -->
 			<h2>Условия</h2>
 			<div class="text">
 				<p>Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн. Его популяризации в новое время послужили публикация листов Letraset с образцами Lorem Ipsum в 60-х годах и, в более недавнее время, программы электронной вёрстки типа Aldus PageMaker, в шаблонах которых используется Lorem Ipsum</p>
@@ -35,30 +38,32 @@
 		</div>
 		<div class="work_with_factory">
 			<h2>Работа с фабрикой</h2>
-			<div class="slider1">
-				<span class="arrow_prev">
-					<img src="img/Arrow_prev.jpg" alt="arrow">
+			<div class="owl-carousel work_with_factory_slider">
+				<div class="slide">
+					<p>Видео</p>
+				</div>
+				<div class="slide">
+					<p>Видео</p>
+				</div>
+				<div class="slide">
+					<p>Видео</p>
+				</div>
+			</div>
+			<div class="navs" style="display: none;">
+				<span class="arrow_next owl-next">
+					<img src="img/Arrow_next.jpg" alt="arrow">
 				</span>
-				<div class="slide">
-					<p>Видео</p>
-				</div>
-				<div class="slide">
-					<p>Видео</p>
-				</div>
-				<div class="slide">
-					<p>Видео</p>
-				</div>
-				<span class="arrow_next">
-					<img src="img/Arrow-next.jpg" alt="arrow">
+				<span class="arrow_prev owl-prev">
+					<img src="img/Arrow_prev.jpg" alt="arrow">
 				</span>
 			</div>
 		</div>
-		<div class="quality">
+		<div class="quality" id="quality">
 			<h2>Качество</h2>
-			<div class="slider2">
-				<span class="arrow_prev">
+			<div class="owl-carousel quality_slider2">
+				<!-- <span class="arrow_prev">
 					<img src="img/Arrow2_prev.png" alt="arrow">
-				</span>
+				</span> -->
 				<div class="slide">
 					<p>Фото</p>
 				</div>
@@ -68,8 +73,16 @@
 				<div class="slide">
 					<p>Фото</p>
 				</div>
-				<span class="arrow_next">
+				<!-- <span class="arrow_next">
 					<img src="img/Arrow2_next.png" alt="arrow">
+				</span> -->
+			</div>
+			<div class="navs" style="display: none;">
+				<span class="arrow_next owl-next">
+					<img src="img/Arrow2_next.jpg" alt="arrow">
+				</span>
+				<span class="arrow_prev owl-prev">
+					<img src="img/Arrow2_prev.jpg" alt="arrow">
 				</span>
 			</div>
 			<button>
@@ -109,12 +122,44 @@
 				Получить оптовый каталог
 			</button>
 		</div>
-		<div class="storage">
+		<div class="do_order">
+			<h2>Сделать заказ проще простого</h2>
+			<div class="items">
+				<div class="item">
+					<img src="img/icon1.png" alt="">
+					<p>1. Оставляете заявку</p>
+				</div>
+				<div class="item">
+					<img src="img/icon2.png" alt="">
+					<p>2. Мы связываемся с вами</p>
+				</div>
+				<div class="item">
+					<img src="img/icon3.png" alt="">
+					<p>3. Уточняем детали</p>
+				</div>
+				<div class="item">
+					<img src="img/icon4.png" alt="">
+					<p>4. 1-2 дня получаем товар<br> на складе в Гуанчжоу</p>
+				</div>
+				<div class="item">
+					<img src="img/icon5.png" alt="">
+					<p>5. Отправка</p>
+				</div>
+				<div class="item">
+					<img src="img/icon6.png" alt="">
+					<p>6. Вы получаете заказ</p>
+				</div>
+			</div>
+			<button>
+				Оставить заявку
+			</button>
+		</div>
+		<div class="storage" id="storage">
 			<h2>Склад</h2>
-			<div class="slider3">
-				<span class="arrow_prev">
+			<div class="owl-carousel storage_slider3">
+			<!-- 	<span class="arrow_prev">
 					<img src="img/Arrow2_prev.png" alt="arrow">
-				</span>
+				</span> -->
 				<div class="slide">
 					<p>Фото</p>
 				</div>
@@ -124,28 +169,38 @@
 				<div class="slide">
 					<p>Фото</p>
 				</div>
-				<span class="arrow_next">
+			<!-- 	<span class="arrow_next">
 					<img src="img/Arrow2_next.png" alt="arrow">
+				</span> -->
+			</div>
+			<div class="navs" style="display: none;">
+				<span class="arrow_next owl-next">
+					<img src="img/Arrow2_next.jpg" alt="arrow">
+				</span>
+				<span class="arrow_prev owl-prev">
+					<img src="img/Arrow2_prev.jpg" alt="arrow">
 				</span>
 			</div>
 		</div>
 		<footer>
-			<h2>Отзывы</h2>
-			<div class="slider4">
-				<span class="arrow_prev">
-					<img src="img/Arrow_prev.jpg" alt="arrow">
+			<h2 id="feedback">Отзывы</h2>
+			<div class="owl-carousel feedback_slider4">
+				<div class="slide">
+					<p>Видео</p>
+				</div>
+				<div class="slide">
+					<p>Видео</p>
+				</div>
+				<div class="slide">
+					<p>Видео</p>
+				</div>
+			</div>
+			<div class="navs" style="display: none;">
+				<span class="arrow_next owl-next">
+					<img src="img/Arrow_next.jpg" alt="arrow">
 				</span>
-				<div class="slide">
-					<p>Видео</p>
-				</div>
-				<div class="slide">
-					<p>Видео</p>
-				</div>
-				<div class="slide">
-					<p>Видео</p>
-				</div>
-				<span class="arrow_next">
-					<img src="img/Arrow-next.jpg" alt="arrow">
+				<span class="arrow_prev owl-prev">
+					<img src="img/Arrow_prev.jpg" alt="arrow">
 				</span>
 			</div>
 			<button>
@@ -154,30 +209,33 @@
 			<div class="other">
 				<div class="contacts">
 					<h3>КОНТАКТЫ</h3>
-					<img src="img/icons8-vk1.png" alt="VK">
-					<img src="img/icons8-youtube-squared-1261.png" alt="YouTube">
+					<img src="https://img.icons8.com/color/125/000000/vk-com.png"/>
+					<img src="https://img.icons8.com/color/125/000000/youtube-squared.png"/>
 				</div>
 				<div class="payment">
 					<h3>ОПЛАТА</h3>
 					<div class="first_img">
-						<img src="img/icons8-paypal-1241.png" alt="paypal">
-						<img src="img/icons8-mastercard-1281.png" alt="mastercard">
-						<img src="img/icons8-visa-1241.png" alt="visa">
+						<img src="https://img.icons8.com/cute-clipart/125/000000/paypal.png"/>
+						<img src="https://img.icons8.com/cute-clipart/125/000000/mastercard.png"/>
+						<img src="https://img.icons8.com/cute-clipart/125/000000/visa.png"/>
 					</div>
 					<div class="last_img">
 						<img src="img/sberbank_icon-icons1.png" alt="sberbank">
-						<img src="img/icons8-american-express-961.png" alt="AmEx">
-						<img src="img/icons8-blockchain-new-logo-2401.png" alt="blockchain">
+						<img src="https://img.icons8.com/color/125/000000/amex.png"/>
+						<img src="https://img.icons8.com/fluent/125/000000/blockchain-new-logo.png"/>
 					</div>					
 				</div>
 				<div class="price">
-					<p>PRICE</p>
-					<p>УСЛОВИЯ</p>
-					<p>ОТЗЫВЫ</p>
-					<p>СКЛАД</p>
-					<p>КАЧЕСТВО</p>
+					<p><a href="#">PRICE</a></p>
+					<p><a href="#terms">УСЛОВИЯ</a></p>
+					<p><a href="#feedback">ОТЗЫВЫ</a></p>
+					<p><a href="#storage">СКЛАД</a></p>
+					<p><a href="#quality">КАЧЕСТВО</a></p>
 				</div>
 			</div>
 		</footer>
+		<script src="./js/jquery.js"></script>
+		<script src='./js/owl.carousel.min.js'></script>
+		<script src="./js/main.js"></script>
 	</body>
 </html>
